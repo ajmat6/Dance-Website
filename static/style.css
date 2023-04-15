@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+body{
+    background-color: #5e5b5b88;
+}
+
+#navbar{
+    /* background-color: purple; */
+    background: linear-gradient(purple, black, purple, black);
+    padding: 0.7rem 0.7rem;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 24px;
+    margin-right: 40px;
+}
+
+#navbar ul img{
+    height: 27px;
+    margin: -4px 7px;
+    filter: invert(1);
+    border-radius: 15px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 0rem 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 0rem 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    color: blue;
+}
+
+#introSection{
+    background: url('/static/bg.jpg') no-repeat center center/cover;
+    height: 300px;
+    /* background-color: yellow; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#introSection .small{
+    font-size: 2rem;
+}
+
+#sponsorsPicture{
+    height: 380px;
+    background: linear-gradient(purple, black, purple, black);
+}
+
+#sponsorsPicture h2{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#sponsors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsors img{
+    height: 150px;
+    margin: 50px 20px;
+}
+
+#ourmission{
+    height: 350px;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin: 15px 15px;
+    border-radius: 12px;
+}
+
+#ourmission h3{
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.card{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 25%;
+    margin: 20px 50px;
+    height: 200px;
+    display: inline-block;
+}
+
+#ourmission h2{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}

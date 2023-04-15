@@ -1,0 +1,36 @@
+//- extends means telling the pug that you are filling the base.pug
+extends base.pug 
+
+//- Jaha par block scripts he base.pug me waha block scipts ke necche waaali file add kardo
+block scripts   
+    script(src='/static/index.js')
+
+//- Jaha par style he waha ye kardo
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+        section#introSection 
+            div Welcome to Rahul Yadav Dance Academy  
+            div.small Learn Grow Live 
+            div.small Eat Dance Sleep -> Repeat
+
+        section#ourmission 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+            div.card
+                h3 Dance the way you like
+            div.card
+                h3 Expert Teaching
+
+        section#sponsorsPicture 
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="/static/apple (1).png" , alt="sponser image" class="apple")
+                img(src="/static/apple (2).png" , alt="sponser image" class="spimage")
+                img(src="/static/apple (3).png" , alt="sponser image" class="spimage")
+                img(src="/static/apple (1).png" , alt="sponser image" class="apple")
+                img(src="/static/apple (2).png" , alt="sponser image" class="spimage")
+                img(src="/static/apple (3).png" , alt="sponser image" class="spimage")
